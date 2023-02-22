@@ -1,0 +1,133 @@
+/*Login Form Css Given Billow*/
+#login_form{
+	background: linear-gradient(#C7408F,#3b58a2);
+	color:white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.form_wrapper{
+	background:#FFFFFF;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 30px 30px 0px 30px;
+	border-radius: 3px;
+	position: relative;
+}
+.input_bg {
+    background: #E6E6E6!important;
+    color: #6B6B6B!important;
+    padding: 25px 35px;
+    box-shadow: none;
+}
+/*Input box shadow remove css*/
+.input_bg:focus, .my_btn:focus{
+	border-color: #E6E6E6;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/*Input box shadow remove css end*/
+h3.login_title {
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.remember_me {
+    color: #6B6B6B!important;
+}
+.my_btn {
+    background: #D33F8D!important;
+    color: #FBFDFF!important;
+    outline: none!important;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    box-shadow: none!important;/*It's For remove button box-shadow*/
+}
+.form_wrapper h6 {
+    color: #afafaf!important;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+a.fb {
+    color: #0056b3;
+    padding: 5px 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 500;
+}
+a.google {
+    color: #565656;
+    font-weight: 500;
+    padding: 5px 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.form_FOOTER {
+    padding-top: 50px;
+    text-align: center;
+    margin: auto;
+}
+.form_FOOTER h6 {
+    font-size: 14px;
+    color: #afafaf;
+}
+.form_FOOTER h6 a {
+    color: #afafaf;
+    text-decoration: underline;
+}
+
+/*Avatar Image Css Given Billow*/
+.avatar {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.avatar img {
+	border-radius: 50px;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*Avatar Css end*/
+
+/*Email & Lock Icon Css Start*/
+.email_Icon {
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 8.5rem; /*rem is very important for icon responsive*/
+    top: 8.5rem; /*rem is very important for icon responsive*/
+    left: 3rem;
+    transform: translate(-50%,-50%);
+}
+.email_Icon i {
+    height: 100%;
+    width: 100%;
+    color: #a0a0a0;
+}
+.lock_Icon{
+	height: 0px;
+	width: 0px;
+	position: absolute;
+	top: 12.5rem;
+	left: 3rem;
+	transform: translate(-50%,-50%);
+}
+.lock_Icon i{
+	height: 100%;
+    width: 100%;
+    color: #a0a0a0;
+}
+/*Email & Lock Icon Css End*/
+/*Login Form Css Given Billow*/
